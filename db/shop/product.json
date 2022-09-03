@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Notch Blazer",
+    "price": "79.99",
+    "image": "images/shop/1.jpg",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "name": "Premium swit Blazer",
+    "price": "199.99",
+    "image": "images/shop/2.jpg",
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "name": "Vintage Sweatshirt",
+    "price": "99.99",
+    "image": "images/shop/3.jpg",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "name": "Longline Jersey Jacket",
+    "price": "19.99",
+    "image": "images/shop/4.jpg",
+    "link": "/"
+  },
+  {
+    "id": 5,
+    "name": "Tailored Blazer",
+    "price": "119.99",
+    "image": "images/shop/5.jpg",
+    "link": "/"
+  },
+  {
+    "id": 6,
+    "name": "Overcoat in Camel",
+    "price": "89.99",
+    "image": "images/shop/6.jpg",
+    "link": "/"
+  }
+]

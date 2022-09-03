@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "border": "border-right border-bottom",
+    "link": "images/clients/1.png"
+  },
+  {
+    "id": 2,
+    "border": "border-right border-bottom",
+    "link": "images/clients/2.png"
+  },
+  {
+    "id": 3,
+    "border": "border-bottom",
+    "link": "images/clients/3.png"
+  },
+  {
+    "id": 4,
+    "border": "border-right",
+    "link": "images/clients/4.png"
+  },
+  {
+    "id": 5,
+    "border": "border-right",
+    "link": "images/clients/5.png"
+  },
+  {
+    "id": 6,
+    "border": "",
+    "link": "images/clients/6.png"
+  }
+]

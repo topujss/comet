@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Sweet Lane",
+    "photo": "images/portfolio/8.jpg",
+    "tag": "branding video",
+    "displayTag": "Branding, video",
+    "link": "/shop"
+  },
+  {
+    "id": 2,
+    "name": "Jeff Burger",
+    "photo": "images/portfolio/6.jpg",
+    "tag": "printing branding",
+    "displayTag": "Printing, Branding",
+    "link": "/shop"
+  },
+  {
+    "id": 3,
+    "name": "Juice Meds",
+    "photo": "images/portfolio/9.jpg",
+    "tag": "video graphic",
+    "displayTag": "Video, Graphic",
+    "link": "/shop"
+  },
+  {
+    "id": 4,
+    "name": "Prisma",
+    "photo": "images/portfolio/11.jpg",
+    "tag": "graphic branding",
+    "displayTag": "Graphic, Branding",
+    "link": "/shop"
+  }
+]

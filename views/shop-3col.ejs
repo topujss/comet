@@ -1,0 +1,169 @@
+<section class="page-title parallax">
+  <div data-parallax="scroll" data-image-src="images/bg/19.jpg" class="parallax-bg"></div>
+  <div class="parallax-overlay">
+    <div class="centrize">
+      <div class="v-center">
+        <div class="container">
+          <div class="title center">
+            <h1 class="upper">Shop</h1>
+            <h4>Free Delivery Worldwide.</h4>
+            <hr />
+          </div>
+        </div>
+        <!-- end of container-->
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-sm hidden-xs">
+        <div class="sidebar">
+          <div class="widget">
+            <h6 class="upper">Categories</h6>
+            <ul class="nav">
+              <li><a href="#">Beauty</a></li>
+              <li><a href="#">Blazers</a></li>
+              <li><a href="#">Bags</a></li>
+              <li><a href="#">Jeans</a></li>
+              <li><a href="#">Shorts</a></li>
+              <li><a href="#">Dresses</a></li>
+            </ul>
+          </div>
+          <!-- end of widget        -->
+          <div class="widget">
+            <h6 class="upper">Trending Products</h6>
+            <ul class="nav product-list">
+              <li>
+                <div class="product-thumbnail">
+                  <img src="images/shop/2.jpg" alt="" />
+                </div>
+                <div class="product-summary">
+                  <a href="#">Premium Suit Blazer</a><span>$199.99</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-thumbnail">
+                  <img src="images/shop/3.jpg" alt="" />
+                </div>
+                <div class="product-summary">
+                  <a href="#">Vintage Sweatshirt</a><span>$199.99</span>
+                </div>
+              </li>
+              <li>
+                <div class="product-thumbnail">
+                  <img src="images/shop/5.jpg" alt="" />
+                </div>
+                <div class="product-summary">
+                  <a href="#">Reiss Vara Blazer</a><span>$199.99</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- end of widget          -->
+          <div class="widget">
+            <h6 class="upper">Search Shop</h6>
+            <form>
+              <input type="text" placeholder="Search.." class="form-control" />
+            </form>
+          </div>
+          <!-- end of widget -->
+          <div class="widget">
+            <h6 class="upper">Popular Tags</h6>
+            <div class="tags clearfix">
+              <a data-filter=".hipster" href="#">Hipster</a>
+              <a data-filter=".fashion" href="#">Fashion</a>
+              <a data-filter=".blazer" href="#">Blazer</a>
+              <a href="#">Shirt</a
+              ><a href="#">Modern</a>
+              <a href="#">Vintage</a>
+            </div>
+          </div>
+          <!-- end of widget      -->
+        </div>
+        <!-- end of sidebar-->
+      </div>
+      <div class="col-md-9">
+        <div class="shop-menu">
+          <div class="row">
+            <div class="col-sm-8">
+              <h6 class="upper">Displaying 6 of 18 results</h6>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-select">
+                <select name="type" class="form-control">
+                  <option selected="selected" value="">Sort By</option>
+                  <option value="">What's new</option>
+                  <option value="">Price high to low</option>
+                  <option value="">Price low to high</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- end of row-->
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <% product.forEach(ele => { %>
+
+            <div class="col-md-4 col-sm-6">
+              <div class="shop-product">
+                <div class="product-thumb">
+                  <a href="/">
+                    <img src="<%= ele.image  %> " alt="" />
+                  </a>
+                  <div class="product-overlay">
+                    <a href="<%= ele.link  %> " class="btn btn-color-out btn-sm"
+                      >Add To Cart<i class="ti-bag"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <h4 class="upper"><a href="#"><%= ele.name %> </a></h4>
+                  <span>$<%= ele.price %> </span>
+                  <div class="save-product">
+                    <a href="#"><i class="icon-heart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% }) %>
+
+          <!-- end of row-->
+          <ul class="pagination">
+            <li>
+              <a href="#" aria-label="Previous"
+                ><span aria-hidden="true"><i class="ti-arrow-left"></i></span
+              ></a>
+            </li>
+            <li class="active">
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
+            <li>
+              <a href="#">5</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Next">
+                <span aria-hidden="true">
+                  <i class="ti-arrow-right"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <!-- end of pagination-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of container-->
+</section>

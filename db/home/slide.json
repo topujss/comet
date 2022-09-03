@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Power",
+    "subtitle": "We are a small design studio from San Francisco.",
+    "photo": "images/bg/1.jpg",
+    "left": "Explore",
+    "right": "Join Us"
+  },
+  {
+    "id": 2,
+    "title": "We Are together",
+    "subtitle": "Experts in web design and development.",
+    "photo": "images/bg/2.jpg",
+    "left": "Explore",
+    "right": "Join Us"
+  },
+  {
+    "id": 3,
+    "title": "Ahmed site",
+    "subtitle": "We are a small design studio from San Francisco.",
+    "photo": "images/bg/5.jpg",
+    "left": "Explore",
+    "right": "Join Us"
+  },
+  {
+    "id": 4,
+    "title": "Ahmed place that people like",
+    "subtitle": "Experts in web design and development.",
+    "photo": "images/bg/10.jpg",
+    "left": "Explore",
+    "right": "Join Us"
+  }
+]
